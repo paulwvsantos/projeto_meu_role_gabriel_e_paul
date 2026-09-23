@@ -1,0 +1,33 @@
+RADIOLA DA QUEBRADA — prática guiada de flexbox, em dupla
+=========================================================
+
+COMECE PELO PDF:  PRATICA-GUIADA.pdf
+Ele tem tudo — os papéis da dupla, os 17 passos com FOTO do antes e
+do depois, o CSS de cada passo e o desafio final.
+
+O que tem nesta pasta:
+
+  PRATICA-GUIADA.pdf   o material. Abram ANTES de encostar no teclado.
+  index.html           a página. NÃO SE MEXE.
+  css/estilo.css       aparência pronta. O leiaute vocês escrevem
+                       no FIM deste arquivo, só com flexbox.
+  desafio.html         a tela do desafio final. TAMBÉM não se mexe.
+  css/desafio.css      aparência do desafio. O leiaute é de vocês.
+  svg/                 as imagens da página.
+
+AS DUAS REGRAS:
+
+  1. Ninguém edita arquivo .html. Nem uma vírgula.
+  2. Só se escreve flexbox. Tudo que não é flexbox (cor, tamanho de
+     letra, altura de caixa, reticências) JÁ ESTÁ no arquivo de
+     aparência.
+
+COMO A DUPLA TRABALHA:
+
+  Um computador só. Fechem a segunda máquina.
+  Um é PILOTO (no teclado), o outro é NAVEGADOR (mãos longe).
+  Trocam de papel no fim de cada bloco — são 6 blocos.
+  A cada passo o PDF traz UMA figura com ANTES em cima e DEPOIS
+  embaixo. A metade de baixo e o alvo: comparem a tela de voces com ela.
+
+Travou cinco minutos? Chamem o professor. Cinco, não vinte.

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 24" width="40" height="24"
+  role="img" aria-label="Tocando agora"><title>Tocando agora</title>
+<rect x="1" y="14" width="6" height="10" fill="#5CCB6E">
+    <animate attributeName="height" values="10;16;10" dur="0.7s"
+             repeatCount="indefinite"/>
+    <animate attributeName="y" values="14;8;14" dur="0.7s"
+             repeatCount="indefinite"/></rect>
+<rect x="9" y="4" width="6" height="20" fill="#5CCB6E">
+    <animate attributeName="height" values="20;6;20" dur="0.83s"
+             repeatCount="indefinite"/>
+    <animate attributeName="y" values="4;18;4" dur="0.83s"
+             repeatCount="indefinite"/></rect>
+<rect x="17" y="10" width="6" height="14" fill="#5CCB6E">
+    <animate attributeName="height" values="14;12;14" dur="0.96s"
+             repeatCount="indefinite"/>
+    <animate attributeName="y" values="10;12;10" dur="0.96s"
+             repeatCount="indefinite"/></rect>
+<rect x="25" y="0" width="6" height="24" fill="#5CCB6E">
+    <animate attributeName="height" values="24;2;24" dur="1.0899999999999999s"
+             repeatCount="indefinite"/>
+    <animate attributeName="y" values="0;22;0" dur="1.0899999999999999s"
+             repeatCount="indefinite"/></rect>
+<rect x="33" y="16" width="6" height="8" fill="#5CCB6E">
+    <animate attributeName="height" values="8;18;8" dur="1.22s"
+             repeatCount="indefinite"/>
+    <animate attributeName="y" values="16;6;16" dur="1.22s"
+             repeatCount="indefinite"/></rect>
+</svg>

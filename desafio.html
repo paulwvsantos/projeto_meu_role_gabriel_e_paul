@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meu Rolê — desafio</title>
+<link rel="stylesheet" href="css/desafio.css">
+</head>
+<body>
+
+<header class="topo">
+  <a class="marca" href="#agenda">
+    <img src="svg/logo.svg" alt="Radiola da Quebrada" width="96" height="48">
+    <span class="marca-nome">MEU<br><b>ROLÊ</b></span>
+  </a>
+  <nav class="menu" aria-label="Seções">
+    <a href="#agenda">Agenda</a>
+    <a href="#palcos">Palcos</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- 1 · FAIXA DE HORÁRIOS -->
+  <section class="secao" aria-labelledby="t-horas">
+    <h2 class="titulo" id="t-horas">Seus horários</h2>
+    <div class="horas">
+      <button class="hora ligado" type="button">18h</button>
+      <button class="hora" type="button">19h</button>
+      <button class="hora" type="button">20h</button>
+      <button class="hora" type="button">21h</button>
+      <button class="hora" type="button">22h</button>
+      <button class="hora" type="button">23h</button>
+      <button class="hora" type="button">00h</button>
+    </div>
+  </section>
+
+  <!-- 3 · CARTÃO DO SEU HORÁRIO -->
+  <section class="secao" id="agenda" aria-labelledby="t-agora">
+    <h2 class="titulo" id="t-agora">Seu próximo</h2>
+    <div class="agora">
+      <img class="agora-capa" src="svg/capa-3.svg" alt="" width="72" height="72">
+      <div class="agora-txt">
+        <span class="agora-tit">Barulho de Fim de Tarde — Banda Pátio no Palco Quadra</span>
+        <span class="agora-sub">19h · Palco Quadra · chegue 20 minutos antes</span>
+      </div>
+      <span class="agora-selo">CONFIRMADO</span>
+    </div>
+  </section>
+
+  <!-- 2 · TRÊS PALCOS -->
+  <section class="secao" id="palcos" aria-labelledby="t-palcos">
+    <h2 class="titulo" id="t-palcos">Escolha os palcos</h2>
+    <div class="palcos">
+
+      <article class="palco">
+        <h3 class="palco-tit">Palco Quadra</h3>
+        <ul class="linha-up">
+          <li>Coletivo Zona Sul</li>
+          <li>Banda Pátio</li>
+        </ul>
+        <div class="palco-rod"><button class="bt-ir" type="button">Quero ir</button></div>
+      </article>
+
+      <article class="palco">
+        <h3 class="palco-tit">Palco Viaduto</h3>
+        <ul class="linha-up">
+          <li>Batalha de rima — chave aberta</li>
+          <li>MC Trinta e Dois</li>
+          <li>DJ Aline</li>
+          <li>Meninas do Bloco</li>
+          <li>Serginho do Prato</li>
+        </ul>
+        <div class="palco-rod"><button class="bt-ir" type="button">Quero ir</button></div>
+      </article>
+
+      <article class="palco destaque">
+        <h3 class="palco-tit">Palco Principal</h3>
+        <ul class="linha-up">
+          <li>Banda da casa</li>
+          <li>Convidados</li>
+          <li>Encerramento</li>
+        </ul>
+        <div class="palco-rod"><button class="bt-ir" type="button">Quero ir</button></div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+</body>
+</html>

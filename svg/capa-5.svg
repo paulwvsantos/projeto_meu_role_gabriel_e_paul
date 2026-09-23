@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"
+  width="120" height="120" role="img" aria-label="Capa do disco 5">
+<title>Capa do disco 5</title>
+<rect width="120" height="120" fill="#7B6CF2"/>
+
+<rect x="24" y="24" width="32" height="32" fill="#F2C53C"/>
+<rect x="64" y="24" width="32" height="32" fill="#EAF0E6"/>
+<rect x="24" y="64" width="32" height="32" fill="#EAF0E6"/>
+<rect x="64" y="64" width="32" height="32" fill="#3FA9E8"/>
+<rect x="52" y="52" width="16" height="16" fill="#0B0D14"/>
+<rect x="1" y="1" width="118" height="118" fill="none" stroke="#0B0D14" stroke-width="2"/>
+</svg>

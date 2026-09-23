@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radiola da Quebrada</title>
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<!-- ===== BARRA DO TOPO ===== -->
+<header class="topo">
+  <a class="marca" href="#grade">
+    <img src="svg/logo.svg" alt="Radiola da Quebrada" width="96" height="48">
+    <span class="marca-nome">RADIOLA<br><b>DA QUEBRADA</b></span>
+  </a>
+  <nav class="menu" aria-label="Seções">
+    <a href="#grade">Discos</a>
+    <a href="#fila">Fila</a>
+    <a href="#palcos">Palcos</a>
+    <a class="menu-bt" href="#grade">Entrar</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ===== FILTROS ===== -->
+  <section class="secao" aria-labelledby="t-filtros">
+    <h2 class="titulo" id="t-filtros">Filtrar por estilo</h2>
+    <div class="filtros">
+      <button class="chip ligado" type="button">Tudo</button>
+      <button class="chip" type="button">Rap nacional</button>
+      <button class="chip" type="button">Funk</button>
+      <button class="chip" type="button">Samba</button>
+      <button class="chip" type="button">Trap</button>
+      <button class="chip" type="button">Pagode</button>
+      <button class="chip" type="button">Brega funk</button>
+      <button class="chip" type="button">Boombap</button>
+      <button class="chip" type="button">Drill</button>
+      <button class="chip" type="button">Piseiro</button>
+      <button class="chip" type="button">Brega</button>
+      <button class="chip" type="button">Rap gospel</button>
+      <button class="chip" type="button">Funk mandelão</button>
+      <button class="chip" type="button">Samba rock</button>
+    </div>
+  </section>
+
+  <!-- ===== GRADE DE DISCOS ===== -->
+  <section class="secao" id="grade" aria-labelledby="t-grade">
+    <h2 class="titulo" id="t-grade">Discos da semana</h2>
+    <ul class="grade">
+
+      <li class="disco">
+        <img class="capa" src="svg/capa-1.svg" alt="" width="120" height="120">
+        <span class="selo">NOVO</span>
+        <h3 class="disco-tit">Quebrada Sonora</h3>
+        <p class="disco-art">Coletivo Zona Sul</p>
+        <p class="disco-txt">Doze faixas gravadas num estúdio montado na laje. Grave estourado
+          de propósito.</p>
+        <div class="disco-rod">
+          <span class="tempo">38 min</span>
+          <button class="bt-curtir" type="button">
+            <img src="svg/coracao.svg" alt="Curtir" width="20" height="20"></button>
+        </div>
+      </li>
+
+      <li class="disco">
+        <img class="capa" src="svg/capa-2.svg" alt="" width="120" height="120">
+        <h3 class="disco-tit">Terminal Sul</h3>
+        <p class="disco-art">MC Trinta e Dois</p>
+        <p class="disco-txt">Gravado entre um turno e outro.</p>
+        <div class="disco-rod">
+          <span class="tempo">29 min</span>
+          <button class="bt-curtir" type="button">
+            <img src="svg/coracao.svg" alt="Curtir" width="20" height="20"></button>
+        </div>
+      </li>
+
+      <li class="disco">
+        <img class="capa" src="svg/capa-3.svg" alt="" width="120" height="120">
+        <span class="selo">AO VIVO</span>
+        <h3 class="disco-tit">Barulho de Fim de Tarde</h3>
+        <p class="disco-art">Banda Pátio</p>
+        <p class="disco-txt">Registro de um show na quadra, com o público cantando por cima
+          de metade das faixas. Vale pelo coro.</p>
+        <div class="disco-rod">
+          <span class="tempo">51 min</span>
+          <button class="bt-curtir" type="button">
+            <img src="svg/coracao.svg" alt="Curtir" width="20" height="20"></button>
+        </div>
+      </li>
+
+      <li class="disco">
+        <img class="capa" src="svg/capa-4.svg" alt="" width="120" height="120">
+        <h3 class="disco-tit">Onda Curta</h3>
+        <p class="disco-art">DJ Aline</p>
+        <p class="disco-txt">Mixtape de madrugada.</p>
+        <div class="disco-rod">
+          <span class="tempo">44 min</span>
+          <button class="bt-curtir" type="button">
+            <img src="svg/coracao.svg" alt="Curtir" width="20" height="20"></button>
+        </div>
+      </li>
+
+      <li class="disco">
+        <img class="capa" src="svg/capa-5.svg" alt="" width="120" height="120">
+        <h3 class="disco-tit">Bloco 4</h3>
+        <p class="disco-art">Meninas do Bloco</p>
+        <p class="disco-txt">Quatro vozes, um teclado emprestado e uma caixa de som de feira.</p>
+        <div class="disco-rod">
+          <span class="tempo">33 min</span>
+          <button class="bt-curtir" type="button">
+            <img src="svg/coracao.svg" alt="Curtir" width="20" height="20"></button>
+        </div>
+      </li>
+
+      <li class="disco">
+        <img class="capa" src="svg/capa-6.svg" alt="" width="120" height="120">
+        <h3 class="disco-tit">Rotina</h3>
+        <p class="disco-art">Serginho do Prato</p>
+        <p class="disco-txt">Samba de mesa gravado no celular, sem nenhum conserto depois.</p>
+        <div class="disco-rod">
+          <span class="tempo">26 min</span>
+          <button class="bt-curtir" type="button">
+            <img src="svg/coracao.svg" alt="Curtir" width="20" height="20"></button>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- ===== FILA DE REPRODUÇÃO ===== -->
+  <section class="secao" id="fila" aria-labelledby="t-fila">
+    <h2 class="titulo" id="t-fila">Na fila</h2>
+    <ol class="fila">
+      <li class="faixa">
+        <span class="faixa-n">01</span>
+        <img class="faixa-capa" src="svg/capa-3.svg" alt="" width="48" height="48">
+        <span class="faixa-tit">Barulho de Fim de Tarde</span>
+        <span class="faixa-art">Banda Pátio</span>
+        <span class="faixa-dur">4:12</span>
+      </li>
+      <li class="faixa">
+        <span class="faixa-n">02</span>
+        <img class="faixa-capa" src="svg/capa-1.svg" alt="" width="48" height="48">
+        <span class="faixa-tit">Quebrada Sonora</span>
+        <span class="faixa-art">Coletivo Zona Sul</span>
+        <span class="faixa-dur">3:05</span>
+      </li>
+      <li class="faixa">
+        <span class="faixa-n">03</span>
+        <img class="faixa-capa" src="svg/capa-5.svg" alt="" width="48" height="48">
+        <span class="faixa-tit">Bloco 4 (ao vivo na quadra)</span>
+        <span class="faixa-art">Meninas do Bloco</span>
+        <span class="faixa-dur">5:48</span>
+      </li>
+      <li class="faixa">
+        <span class="faixa-n">04</span>
+        <img class="faixa-capa" src="svg/capa-6.svg" alt="" width="48" height="48">
+        <span class="faixa-tit">Rotina</span>
+        <span class="faixa-art">Serginho do Prato</span>
+        <span class="faixa-dur">2:39</span>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===== PALCOS ===== -->
+  <section class="secao" id="palcos" aria-labelledby="t-palcos">
+    <h2 class="titulo" id="t-palcos">Palcos do sábado</h2>
+    <div class="palcos">
+      <article class="palco">
+        <div class="palco-cab">
+          <h3 class="palco-tit">Palco Quadra</h3>
+  <p class="palco-hora">19h</p>
+        </div>
+        <p class="palco-txt">Abertura com os coletivos da região.</p>
+      </article>
+      <article class="palco">
+        <div class="palco-cab">
+          <h3 class="palco-tit">Palco Viaduto</h3>
+  <p class="palco-hora">21h</p>
+        </div>
+        <p class="palco-txt">Batalha de rima, chave aberta. Inscrição na hora.</p>
+      </article>
+      <article class="palco destaque">
+        <div class="palco-cab">
+          <h3 class="palco-tit">Palco Principal</h3>
+  <p class="palco-hora">23h</p>
+        </div>
+        <p class="palco-txt">Encerramento com a banda da casa e convidados.</p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== PLAYER FIXO ===== -->
+<div class="player">
+  <div class="player-agora">
+    <img class="player-capa" src="svg/capa-3.svg" alt="" width="56" height="56">
+    <div class="player-txt">
+      <span class="player-tit">Barulho de Fim de Tarde</span>
+      <span class="player-art">Banda Pátio</span>
+    </div>
+    <img class="player-eq" src="svg/equalizador.svg" alt="Tocando agora" width="40" height="24">
+  </div>
+
+  <div class="player-controles">
+    <button class="bt-c" type="button">
+      <img src="svg/aleatorio.svg" alt="Aleatório" width="24" height="24"></button>
+    <button class="bt-c" type="button">
+      <img src="svg/anterior.svg" alt="Anterior" width="24" height="24"></button>
+    <button class="bt-c bt-play" type="button">
+      <img src="svg/play.svg" alt="Tocar" width="24" height="24"></button>
+    <button class="bt-c" type="button">
+      <img src="svg/proxima.svg" alt="Próxima" width="24" height="24"></button>
+    <button class="bt-c" type="button">
+      <img src="svg/repetir.svg" alt="Repetir" width="24" height="24"></button>
+  </div>
+
+  <div class="player-tempo">
+    <span class="t-atual">1:18</span>
+    <div class="barra"><i class="barra-cheia"></i></div>
+    <span class="t-total">4:12</span>
+  </div>
+</div>
+
+</body>
+</html>

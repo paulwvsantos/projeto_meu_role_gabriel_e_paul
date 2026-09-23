@@ -1,0 +1,274 @@
+/* ===========================================================
+   RADIOLA DA QUEBRADA — aparência
+   -----------------------------------------------------------
+   Este arquivo já tem COR, BORDA, TIPO e ESPAÇO INTERNO.
+   Não tem NENHUMA propriedade de leiaute: sem display: flex,
+   sem justify-content, sem align-items, sem gap, sem order.
+
+   É você quem vai colocar, passo a passo. Cada passo do
+   roteiro diz EXATAMENTE onde escrever.
+   =========================================================== */
+
+:root{
+  --fundo:#12151F;
+  --caixa:#1B2130;
+  --caixa2:#161B28;
+  --linha:#0B0D14;
+  --texto:#E6E9F0;
+  --apoio:#98A0B4;
+  --marca:#3FA9E8;
+  --destaque:#F2C53C;
+  --quente:#F2A23C;
+  --vivo:#F2564B;
+  --verde:#5CCB6E;
+  --rosa:#E85FA8;
+  --borda:3px solid var(--linha);
+  --sombra:4px 4px 0 var(--linha);
+}
+
+*{ box-sizing:border-box; }
+
+body{
+  margin:0;
+  padding:0 0 140px;
+  background:var(--fundo);
+  color:var(--texto);
+  font-family:system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size:16px;
+  line-height:1.5;
+}
+
+img{ max-width:100%; }
+
+/* ---------- barra do topo ---------- */
+.topo{
+  background:var(--caixa);
+  border-bottom:var(--borda);
+  padding:12px 20px;
+}
+.marca{
+  color:var(--texto);
+  text-decoration:none;
+}
+.marca-nome{
+  font-size:13px;
+  letter-spacing:.08em;
+  line-height:1.15;
+}
+.marca-nome b{ color:var(--destaque); }
+
+.menu a{
+  color:var(--texto);
+  text-decoration:none;
+  font-size:15px;
+  padding:8px 4px;
+}
+.menu a:hover{ color:var(--destaque); }
+.menu-bt{
+  background:var(--destaque);
+  color:#2A1E00;
+  border:var(--borda);
+  box-shadow:var(--sombra);
+  padding:8px 16px;
+  font-weight:700;
+}
+.menu-bt:hover{ color:#2A1E00; }
+
+/* ---------- seções ---------- */
+main{
+  max-width:1080px;
+  margin:0 auto;
+  padding:0 20px;
+}
+.secao{ margin:28px 0; }
+.titulo{
+  font-size:20px;
+  margin:0 0 12px;
+  padding-bottom:6px;
+  border-bottom:var(--borda);
+}
+
+/* ---------- filtros ---------- */
+.filtros{
+  background:var(--caixa2);
+  border:var(--borda);
+  padding:12px;
+  min-height:130px;
+}
+.chip{
+  background:var(--caixa);
+  color:var(--texto);
+  border:var(--borda);
+  box-shadow:3px 3px 0 var(--linha);
+  padding:8px 14px;
+  font-size:14px;
+  font-family:inherit;
+  cursor:pointer;
+  margin:0;
+}
+.chip:hover{ background:#232A3A; }
+.chip.ligado{
+  background:var(--destaque);
+  color:#2A1E00;
+  font-weight:700;
+}
+.chip:focus-visible{ outline:3px solid var(--marca); outline-offset:3px; }
+
+/* ---------- grade de discos ---------- */
+.grade{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.disco{
+  background:var(--caixa);
+  border:var(--borda);
+  box-shadow:var(--sombra);
+  padding:14px;
+  margin:0;
+}
+.capa{
+  border:var(--borda);
+  display:block;
+}
+.selo{
+  background:var(--vivo);
+  color:#FFF6F5;
+  border:var(--borda);
+  padding:2px 8px;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.06em;
+}
+.disco-tit{
+  font-size:17px;
+  margin:10px 0 2px;
+}
+.disco-art{
+  color:var(--marca);
+  font-size:14px;
+  margin:0 0 8px;
+}
+.disco-txt{
+  color:var(--apoio);
+  font-size:14px;
+  margin:0;
+}
+.disco-rod{
+  border-top:2px solid #2A3145;
+  padding-top:10px;
+  margin-top:12px;
+}
+.tempo{
+  font-family:ui-monospace, Consolas, monospace;
+  font-size:13px;
+  color:var(--apoio);
+}
+.bt-curtir{
+  background:var(--caixa2);
+  border:var(--borda);
+  padding:6px;
+  cursor:pointer;
+  line-height:0;
+}
+.bt-curtir:hover{ background:#2A3145; }
+
+/* ---------- fila ---------- */
+.fila{
+  list-style:none;
+  margin:0;
+  padding:0;
+  background:var(--caixa2);
+  border:var(--borda);
+}
+.faixa{
+  border-bottom:2px solid #2A3145;
+  padding:10px 12px;
+}
+.faixa:last-child{ border-bottom:0; }
+.faixa:hover{ background:#20263a; }
+.faixa-n{
+  font-family:ui-monospace, Consolas, monospace;
+  font-size:20px;
+  color:#4E5771;
+  min-width:34px;
+  text-align:right;
+}
+.faixa-capa{ border:2px solid var(--linha); display:block; }
+.faixa-tit{ font-size:16px; white-space:nowrap; }
+.faixa-art{ font-size:13px; color:var(--apoio); }
+.faixa-dur{
+  font-family:ui-monospace, Consolas, monospace;
+  font-size:13px;
+  color:var(--apoio);
+}
+
+/* ---------- palcos ---------- */
+.palcos{ }
+.palco{
+  background:var(--caixa);
+  border:var(--borda);
+  box-shadow:var(--sombra);
+  padding:14px;
+  margin:0;
+}
+.palco.destaque{ border-color:var(--destaque); }
+.palco-tit{ font-size:17px; margin:0 0 4px; }
+.palco-hora{
+  font-family:ui-monospace, Consolas, monospace;
+  font-size:26px;
+  color:var(--destaque);
+  margin:0 0 6px;
+}
+.palco-txt{ color:var(--apoio); font-size:14px; margin:0; }
+
+/* ---------- player fixo ---------- */
+.player{
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  background:var(--caixa);
+  border-top:var(--borda);
+  padding:12px 20px;
+}
+.player-capa{ border:var(--borda); display:block; }
+.player-tit{ font-size:15px; }
+.player-art{ font-size:13px; color:var(--apoio); }
+.player-tit, .player-art{ overflow:hidden; text-overflow:ellipsis;
+                          white-space:nowrap; }
+.player-eq{ display:block; }
+
+.bt-c{
+  background:transparent;
+  border:0;
+  padding:8px;
+  cursor:pointer;
+  line-height:0;
+}
+.bt-c:hover{ background:#2A3145; }
+.bt-play{
+  background:var(--destaque);
+  border:var(--borda);
+  box-shadow:3px 3px 0 var(--linha);
+  padding:10px;
+}
+.bt-play:hover{ background:#FFD84D; }
+.bt-c:focus-visible{ outline:3px solid var(--marca); outline-offset:3px; }
+
+.t-atual, .t-total{
+  font-family:ui-monospace, Consolas, monospace;
+  font-size:13px;
+  color:var(--apoio);
+}
+.barra{
+  height:10px;
+  background:var(--caixa2);
+  border:2px solid var(--linha);
+}
+.barra-cheia{
+  display:block;
+  height:100%;
+  width:31%;
+  background:var(--verde);
+}

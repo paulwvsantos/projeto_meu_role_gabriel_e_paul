@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"
+  width="120" height="120" role="img" aria-label="Capa do disco 4">
+<title>Capa do disco 4</title>
+<rect width="120" height="120" fill="#F2A23C"/>
+
+<path d="M24 86 Q42 34 60 62 Q78 90 96 38" fill="none" stroke="#0B0D14" stroke-width="8"
+      stroke-linecap="square"/>
+<rect x="24" y="96" width="72" height="8" fill="#0B0D14"/>
+<circle cx="96" cy="26" r="10" fill="#EAF0E6" stroke="#0B0D14" stroke-width="2"/>
+<rect x="1" y="1" width="118" height="118" fill="none" stroke="#0B0D14" stroke-width="2"/>
+</svg>
