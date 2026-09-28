@@ -101,5 +101,24 @@ main{ max-width:1080px; margin:0 auto; padding:0 20px; }
 }
 
 .horas{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
 
+.agora-capa{
+  display: flex;
+  align-items: center;
+}
+
+.agora-txt{
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.agora-selo{
+  align-self: flex-start;
 }
